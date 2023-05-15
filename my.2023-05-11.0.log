@@ -1,0 +1,85 @@
+2023-05-11 11:58:05.666  INFO 9772 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 9772 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-11 11:58:05.668  INFO 9772 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-11 11:58:06.297  WARN 9772 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-11 11:58:06.656  INFO 9772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-11 11:58:06.663  INFO 9772 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-11 11:58:06.672  INFO 9772 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-11 11:58:06.771  INFO 9772 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-11 11:58:06.772  INFO 9772 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1051 ms
+2023-05-11 11:58:06.997  INFO 9772 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-11 11:58:07.211  INFO 9772 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-11 11:58:07.224  INFO 9772 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.069 seconds (JVM running for 2.739)
+2023-05-11 11:58:14.877  INFO 9772 --- [http-nio-800-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-11 11:58:14.877  INFO 9772 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-11 11:58:14.878  INFO 9772 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-11 11:58:14.897 ERROR 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:14.898  WARN 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:14.898  INFO 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:14.898 DEBUG 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:15.450 ERROR 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:15.451  WARN 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:15.451  INFO 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:15.451 DEBUG 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:18.596 ERROR 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:18.596  WARN 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:18.597  INFO 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:18.597 DEBUG 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:18.949 ERROR 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:18.950  WARN 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:18.950  INFO 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:18.950 DEBUG 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:19.339 ERROR 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:19.341  WARN 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:19.341  INFO 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:19.342 DEBUG 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:19.950 ERROR 9772 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:19.950  WARN 9772 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:19.950  INFO 9772 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:19.951 DEBUG 9772 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:20.190 ERROR 9772 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:20.191  WARN 9772 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:20.192  INFO 9772 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:20.192 DEBUG 9772 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:20.374 ERROR 9772 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:20.375  WARN 9772 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:20.375  INFO 9772 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:20.375 DEBUG 9772 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:20.564 ERROR 9772 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:20.564  WARN 9772 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:20.565  INFO 9772 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:20.565 DEBUG 9772 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:20.753 ERROR 9772 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:20.753  WARN 9772 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:20.753  INFO 9772 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:20.754 DEBUG 9772 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:20.957 ERROR 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:20.957  WARN 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:20.957  INFO 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:20.957 DEBUG 9772 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:21.143 ERROR 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:21.143  WARN 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:21.144  INFO 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:21.144 DEBUG 9772 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:21.331 ERROR 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:21.332  WARN 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:21.332  INFO 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:21.333 DEBUG 9772 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:21.516 ERROR 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:21.517  WARN 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:21.517  INFO 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:21.517 DEBUG 9772 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-11 11:58:21.700 ERROR 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-11 11:58:21.701  WARN 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-11 11:58:21.702  INFO 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-11 11:58:21.702 DEBUG 9772 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-11 11:59:02.402  INFO 23340 --- [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 23340 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-11 11:59:02.405  INFO 23340 --- [main] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-11 11:59:03.145  WARN 23340 --- [main] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-11 11:59:03.643  INFO 23340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-11 11:59:03.652  INFO 23340 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-11 11:59:03.652  INFO 23340 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-11 11:59:03.756  INFO 23340 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-11 11:59:03.756  INFO 23340 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1302 ms
+2023-05-11 11:59:03.970  INFO 23340 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-11 11:59:04.245  INFO 23340 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-11 11:59:04.265  INFO 23340 --- [main] com.example.demo.DemoApplication         : Started DemoApplication in 2.327 seconds (JVM running for 3.051)

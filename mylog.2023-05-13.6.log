@@ -1,0 +1,104 @@
+2023-05-13 16:08:50.784  INFO 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 16:08:50.786 DEBUG 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 16:09:27.665 ERROR 3116 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-13 16:09:27.665  WARN 3116 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-13 16:09:27.665  INFO 3116 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 16:09:27.666 DEBUG 3116 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 16:09:56.688 ERROR 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 16:09:56.690  WARN 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 16:09:56.690  INFO 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 16:09:56.690 DEBUG 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:15.147 ERROR 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:15.148  WARN 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:15.148  INFO 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:15.148 DEBUG 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:15.335 ERROR 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:15.336  WARN 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:15.336  INFO 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:15.336 DEBUG 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:15.511 ERROR 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:15.512  WARN 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:15.512  INFO 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:15.513 DEBUG 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:15.668 ERROR 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:15.669  WARN 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:15.669  INFO 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:15.669 DEBUG 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:15.838 ERROR 3116 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:15.838  WARN 3116 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:15.839  INFO 3116 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:15.839 DEBUG 3116 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:16.015 ERROR 3116 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:16.015  WARN 3116 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:16.016  INFO 3116 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:16.016 DEBUG 3116 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:28.966 ERROR 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:28.967  WARN 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:28.967  INFO 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:28.968 DEBUG 3116 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 16:10:58.712 ERROR 3116 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-13 16:10:58.712  WARN 3116 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-13 16:10:58.713  INFO 3116 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-13 16:10:58.713 DEBUG 3116 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:01.891 ERROR 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:01.891  WARN 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:01.892  INFO 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:01.892 DEBUG 3116 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:02.038 ERROR 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:02.039  WARN 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:02.039  INFO 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:02.039 DEBUG 3116 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:02.193 ERROR 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:02.193  WARN 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:02.193  INFO 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:02.193 DEBUG 3116 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:02.322 ERROR 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:02.323  WARN 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:02.323  INFO 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:02.323 DEBUG 3116 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:02.458 ERROR 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:02.458  WARN 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:02.458  INFO 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:02.458 DEBUG 3116 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : debug
+2023-05-13 16:11:07.836  INFO 3116 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-05-13 16:11:11.640  INFO 1960 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 1960 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 16:11:11.640  INFO 1960 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 16:11:11.678  INFO 1960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 16:11:11.678  INFO 1960 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 16:11:12.291  WARN 1960 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 16:11:12.687  INFO 1960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 16:11:12.695  INFO 1960 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 16:11:12.695  INFO 1960 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 16:11:12.776  INFO 1960 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 16:11:12.776  INFO 1960 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1098 ms
+2023-05-13 16:11:13.146  INFO 1960 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 16:11:13.318  INFO 1960 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 16:11:13.358  INFO 1960 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 16:11:13.366  INFO 1960 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.159 seconds (JVM running for 3.634)
+2023-05-13 16:11:18.054  INFO 1960 --- [http-nio-800-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 16:11:18.054  INFO 1960 --- [http-nio-800-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13 16:11:18.055  INFO 1960 --- [http-nio-800-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13 16:11:46.778 ERROR 1960 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-13 16:11:46.779  WARN 1960 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-13 16:11:46.779  INFO 1960 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 16:11:46.779 DEBUG 1960 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 16:12:30.653  INFO 1960 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-05-13 16:12:35.278  INFO 19704 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 19704 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 16:12:35.283  INFO 19704 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 16:12:35.321  INFO 19704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 16:12:35.321  INFO 19704 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 16:12:36.052  WARN 19704 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 16:12:36.474  INFO 19704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 16:12:36.482  INFO 19704 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 16:12:36.482  INFO 19704 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 16:12:36.562  INFO 19704 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 16:12:36.562  INFO 19704 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1241 ms
+2023-05-13 16:12:36.965  INFO 19704 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 16:12:37.146  INFO 19704 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 16:12:37.186  INFO 19704 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 16:12:37.194  INFO 19704 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.35 seconds (JVM running for 3.716)
+2023-05-13 16:12:38.924  INFO 19704 --- [http-nio-800-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 16:12:38.929  INFO 19704 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13 16:12:38.931  INFO 19704 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13 16:12:50.046 ERROR 19704 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 16:12:50.046  WARN 19704 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn

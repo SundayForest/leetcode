@@ -1,0 +1,63 @@
+2023-05-12 14:52:33.303  INFO 14660 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 14660 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 14:52:33.303  INFO 14660 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 14:52:33.372  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 14:52:33.372  INFO 14660 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 14:52:34.074  WARN 14660 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 14:52:34.504  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 14:52:34.512  INFO 14660 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 14:52:34.512  INFO 14660 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 14:52:34.598  INFO 14660 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 14:52:34.598  INFO 14660 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1226 ms
+2023-05-12 14:52:34.831  INFO 14660 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 14:52:35.057  INFO 14660 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 14:52:35.102  INFO 14660 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 14:52:35.115  INFO 14660 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.278 seconds (JVM running for 3.298)
+2023-05-12 14:52:51.087  INFO 26828 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 26828 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 14:52:51.091  INFO 26828 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 14:52:51.133  INFO 26828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 14:52:51.133  INFO 26828 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 14:52:52.055  WARN 26828 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 14:52:52.584  INFO 26828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 14:52:52.596  INFO 26828 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 14:52:52.596  INFO 26828 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 14:52:52.708  INFO 26828 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 14:52:52.708  INFO 26828 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1571 ms
+2023-05-12 14:52:53.000  INFO 26828 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 14:52:53.272  INFO 26828 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 14:52:53.326  INFO 26828 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 14:52:53.351  INFO 26828 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.713 seconds (JVM running for 3.552)
+2023-05-12 14:55:48.764  INFO 26280 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 26280 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 14:55:48.764  INFO 26280 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 14:55:48.813  INFO 26280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 14:55:48.813  INFO 26280 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 14:55:49.619  WARN 26280 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 14:55:50.050  INFO 26280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 14:55:50.058  INFO 26280 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 14:55:50.058  INFO 26280 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 14:55:50.146  INFO 26280 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 14:55:50.146  INFO 26280 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1333 ms
+2023-05-12 14:55:50.438  INFO 26280 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 14:55:50.677  INFO 26280 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 14:55:50.722  INFO 26280 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 14:55:50.734  INFO 26280 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.366 seconds (JVM running for 3.196)
+2023-05-12 14:56:21.078  INFO 18316 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 18316 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 14:56:21.078  INFO 18316 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 14:56:21.131  INFO 18316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 14:56:21.131  INFO 18316 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 14:56:21.694  WARN 18316 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 14:56:22.087  INFO 18316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 14:56:22.095  INFO 18316 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 14:56:22.099  INFO 18316 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 14:56:22.188  INFO 18316 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 14:56:22.188  INFO 18316 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1057 ms
+2023-05-12 14:56:22.440  INFO 18316 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 14:56:22.627  INFO 18316 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 14:56:22.672  INFO 18316 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 14:56:22.689  INFO 18316 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.045 seconds (JVM running for 3.007)
+2023-05-12 14:59:07.484  INFO 10856 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 10856 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 14:59:07.484  INFO 10856 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 14:59:07.546  INFO 10856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 14:59:07.546  INFO 10856 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 14:59:08.315  WARN 10856 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 14:59:08.748  INFO 10856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 14:59:08.760  INFO 10856 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]

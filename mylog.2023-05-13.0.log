@@ -1,0 +1,80 @@
+2023-05-12 14:59:08.760  INFO 10856 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 14:59:08.858  INFO 10856 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 14:59:08.862  INFO 10856 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1316 ms
+2023-05-12 14:59:09.255  INFO 10856 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 14:59:09.490  INFO 10856 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 14:59:09.542  INFO 10856 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 14:59:09.554  INFO 10856 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.594 seconds (JVM running for 3.601)
+2023-05-12 15:23:09.447  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 27148 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 15:23:09.447  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 15:23:09.505  INFO 27148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-12 15:23:09.505  INFO 27148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-12 15:23:10.552  WARN 27148 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 15:23:11.039  INFO 27148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 15:23:11.047  INFO 27148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 15:23:11.047  INFO 27148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 15:23:11.174  INFO 27148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 15:23:11.178  INFO 27148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1668 ms
+2023-05-12 15:23:11.494  INFO 27148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 15:23:11.750  INFO 27148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 15:23:11.807  INFO 27148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 15:23:11.819  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.076 seconds (JVM running for 4.188)
+2023-05-12 15:49:25.519  INFO 27148 --- [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 6 deletions, 1 modification)
+2023-05-12 15:49:25.546  INFO 27148 --- [Thread-5] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-12 15:49:25.578  INFO 27148 --- [Thread-5] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-05-12 15:49:25.679  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 27148 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 15:49:25.679  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 15:49:25.689  WARN 27148 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.DemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/example/demo/DemoApplication.class] cannot be opened because it does not exist
+2023-05-12 15:49:25.718 ERROR 27148 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.example.demo.DemoApplication]; nested exception is java.io.FileNotFoundException: class path resource [com/example/demo/DemoApplication.class] cannot be opened because it does not exist
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:188) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:145) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:745) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:420) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:307) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1317) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.6.13.jar:2.6.13]
+	at com.example.demo.DemoApplication.main(DemoApplication.java:23) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.6.13.jar:2.6.13]
+Caused by: java.io.FileNotFoundException: class path resource [com/example/demo/DemoApplication.class] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:199) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.getClassReader(SimpleMetadataReader.java:55) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.core.type.classreading.SimpleMetadataReader.<init>(SimpleMetadataReader.java:48) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:103) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.createMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:86) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.boot.type.classreading.ConcurrentReferenceCachingMetadataReaderFactory.getMetadataReader(ConcurrentReferenceCachingMetadataReaderFactory.java:73) ~[spring-boot-2.6.13.jar:2.6.13]
+	at org.springframework.core.type.classreading.SimpleMetadataReaderFactory.getMetadataReader(SimpleMetadataReaderFactory.java:81) ~[spring-core-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:696) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:664) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.asSourceClass(ConfigurationClassParser.java:642) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:247) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:206) ~[spring-context-5.3.23.jar:5.3.23]
+	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:174) ~[spring-context-5.3.23.jar:5.3.23]
+	... 16 common frames omitted
+
+2023-05-12 15:49:29.227  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 27148 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-12 15:49:29.227  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-12 15:49:29.452  WARN 27148 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-12 15:49:29.550  INFO 27148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-12 15:49:29.554  INFO 27148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-12 15:49:29.554  INFO 27148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-12 15:49:29.601  INFO 27148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-12 15:49:29.601  INFO 27148 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 368 ms
+2023-05-12 15:49:29.774  INFO 27148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-12 15:49:29.859  INFO 27148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-12 15:49:29.881  INFO 27148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-12 15:49:29.889  INFO 27148 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 0.699 seconds (JVM running for 1582.256)
+2023-05-12 15:49:29.891  INFO 27148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-05-13 14:28:03.454  INFO 21640 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 21640 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 14:28:03.459  INFO 21640 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 14:28:03.527  INFO 21640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 14:28:03.527  INFO 21640 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'

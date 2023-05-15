@@ -1,0 +1,88 @@
+2023-05-13 16:01:42.457  INFO 19712 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13 16:01:42.461  INFO 19712 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2023-05-13 16:01:42.476 ERROR 19712 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:42.477  WARN 19712 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:42.477  INFO 19712 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:42.477 DEBUG 19712 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.082 ERROR 19712 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.082  WARN 19712 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.082  INFO 19712 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.082 DEBUG 19712 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.224 ERROR 19712 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.225  WARN 19712 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.225  INFO 19712 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.225 DEBUG 19712 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.352 ERROR 19712 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.353  WARN 19712 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.353  INFO 19712 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.353 DEBUG 19712 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.483 ERROR 19712 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.483  WARN 19712 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.483  INFO 19712 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.483 DEBUG 19712 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.621 ERROR 19712 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.621  WARN 19712 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.621  INFO 19712 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.621 DEBUG 19712 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.771 ERROR 19712 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.772  WARN 19712 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.772  INFO 19712 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.772 DEBUG 19712 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:43.917 ERROR 19712 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:43.917  WARN 19712 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:43.918  INFO 19712 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:43.918 DEBUG 19712 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:44.069 ERROR 19712 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:44.069  WARN 19712 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:44.069  INFO 19712 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:44.069 DEBUG 19712 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:51.434 ERROR 19712 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : error
+2023-05-13 16:01:51.434  WARN 19712 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : warn
+2023-05-13 16:01:51.434  INFO 19712 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : info
+2023-05-13 16:01:51.435 DEBUG 19712 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : debug
+2023-05-13 16:04:19.581  INFO 17788 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 17788 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 16:04:19.582  INFO 17788 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 16:04:19.661  INFO 17788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 16:04:19.662  INFO 17788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 16:04:20.561  WARN 17788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 16:04:21.145  INFO 17788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 16:04:21.158  INFO 17788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 16:04:21.159  INFO 17788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 16:04:21.312  INFO 17788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 16:04:21.313  INFO 17788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2023-05-13 16:04:21.958  INFO 17788 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 16:04:22.230  INFO 17788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 16:04:22.288  INFO 17788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 16:04:22.307  INFO 17788 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 3.294 seconds (JVM running for 4.408)
+2023-05-13 16:04:26.580  INFO 17788 --- [http-nio-800-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 16:04:26.581  INFO 17788 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13 16:04:26.582  INFO 17788 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13 16:04:26.596 ERROR 17788 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 16:04:26.596  WARN 17788 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-13 16:04:26.596  INFO 17788 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 16:04:26.596 DEBUG 17788 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 16:04:27.048 ERROR 17788 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-13 16:04:27.048  WARN 17788 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-13 16:04:27.048  INFO 17788 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 16:04:27.049 DEBUG 17788 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 16:04:27.555 ERROR 17788 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-13 16:04:27.556  WARN 17788 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-13 16:04:27.556  INFO 17788 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-13 16:04:27.556 DEBUG 17788 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-13 16:04:31.156 ERROR 17788 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 16:04:31.156  WARN 17788 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 16:04:31.156  INFO 17788 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 16:04:31.157 DEBUG 17788 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 16:06:20.408  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 15624 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 16:06:20.408  INFO 15624 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 16:06:20.455  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 16:06:20.455  INFO 15624 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 16:06:21.074  WARN 15624 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 16:06:21.483  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 16:06:21.491  INFO 15624 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 16:06:21.499  INFO 15624 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 16:06:21.573  INFO 15624 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 16:06:21.573  INFO 15624 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1118 ms
+2023-05-13 16:06:22.361  INFO 15624 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 16:06:22.710  INFO 15624 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 16:06:22.781  INFO 15624 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''

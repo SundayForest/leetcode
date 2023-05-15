@@ -1,0 +1,93 @@
+2023-05-13 15:51:39.665  INFO 4572 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:51:39.704  INFO 4572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:51:39.720  INFO 4572 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.468 seconds (JVM running for 3.318)
+2023-05-13 15:52:14.241  INFO 21788 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 21788 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:52:14.241  INFO 21788 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:52:14.298  INFO 21788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:52:14.298  INFO 21788 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:52:14.833  WARN 21788 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:52:15.194  INFO 21788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:52:15.202  INFO 21788 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:52:15.202  INFO 21788 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:52:15.274  INFO 21788 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:52:15.274  INFO 21788 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 976 ms
+2023-05-13 15:52:15.612  INFO 21788 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:52:15.811  INFO 21788 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:52:15.844  INFO 21788 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:52:15.860  INFO 21788 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.0 seconds (JVM running for 2.836)
+2023-05-13 15:58:51.812  INFO 9552 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 9552 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:58:51.812  INFO 9552 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:58:51.858  INFO 9552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:58:51.858  INFO 9552 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:58:52.567  WARN 9552 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:58:52.968  INFO 9552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:58:52.973  INFO 9552 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:58:52.973  INFO 9552 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:58:53.068  INFO 9552 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:58:53.068  INFO 9552 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1207 ms
+2023-05-13 15:58:53.427  INFO 9552 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:58:53.593  INFO 9552 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:58:53.628  INFO 9552 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:58:53.643  INFO 9552 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.263 seconds (JVM running for 3.028)
+2023-05-13 15:59:01.723  INFO 9552 --- [http-nio-800-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-13 15:59:01.723  INFO 9552 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-05-13 15:59:01.724  INFO 9552 --- [http-nio-800-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-05-13 15:59:01.748 ERROR 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:01.748  WARN 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:01.748  INFO 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:01.748 DEBUG 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:04.726 ERROR 9552 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:04.726  WARN 9552 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:04.726  INFO 9552 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:04.726 DEBUG 9552 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:04.885 ERROR 9552 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:04.885  WARN 9552 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:04.886  INFO 9552 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:04.886 DEBUG 9552 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.045 ERROR 9552 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.046  WARN 9552 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.046  INFO 9552 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.046 DEBUG 9552 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.181 ERROR 9552 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.182  WARN 9552 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.182  INFO 9552 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.182 DEBUG 9552 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.326 ERROR 9552 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.326  WARN 9552 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.327  INFO 9552 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.328 DEBUG 9552 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.446 ERROR 9552 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.446  WARN 9552 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.446  INFO 9552 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.446 DEBUG 9552 --- [http-nio-800-exec-8] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.597 ERROR 9552 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.597  WARN 9552 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.597  INFO 9552 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.598 DEBUG 9552 --- [http-nio-800-exec-9] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.716 ERROR 9552 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.717  WARN 9552 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.717  INFO 9552 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.717 DEBUG 9552 --- [http-nio-800-exec-10] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:05.866 ERROR 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:05.867  WARN 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:05.867  INFO 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:05.867 DEBUG 9552 --- [http-nio-800-exec-1] c.example.demo.controller.LogController  : debug
+2023-05-13 15:59:11.050 ERROR 9552 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : error
+2023-05-13 15:59:11.050  WARN 9552 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : warn
+2023-05-13 15:59:11.050  INFO 9552 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : info
+2023-05-13 15:59:11.050 DEBUG 9552 --- [http-nio-800-exec-3] c.example.demo.controller.LogController  : debug
+2023-05-13 16:01:36.813  INFO 19712 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 19712 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 16:01:36.815  INFO 19712 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 16:01:36.862  INFO 19712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 16:01:36.862  INFO 19712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 16:01:37.447  WARN 19712 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 16:01:37.799  INFO 19712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 16:01:37.815  INFO 19712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 16:01:37.815  INFO 19712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 16:01:37.887  INFO 19712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 16:01:37.887  INFO 19712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1025 ms
+2023-05-13 16:01:38.207  INFO 19712 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 16:01:38.378  INFO 19712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 16:01:38.417  INFO 19712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 16:01:38.430  INFO 19712 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 1.993 seconds (JVM running for 2.714)
+2023-05-13 16:01:42.456  INFO 19712 --- [http-nio-800-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'

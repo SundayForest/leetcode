@@ -1,0 +1,118 @@
+2023-05-13 14:43:08.020  INFO 22484 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : info
+2023-05-13 14:43:08.024 DEBUG 22484 --- [http-nio-800-exec-2] c.example.demo.controller.LogController  : debug
+2023-05-13 14:43:08.173 ERROR 22484 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : error
+2023-05-13 14:43:08.173  WARN 22484 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : warn
+2023-05-13 14:43:08.174  INFO 22484 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : info
+2023-05-13 14:43:08.174 DEBUG 22484 --- [http-nio-800-exec-4] c.example.demo.controller.LogController  : debug
+2023-05-13 14:43:17.588 ERROR 22484 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : error
+2023-05-13 14:43:17.590  WARN 22484 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : warn
+2023-05-13 14:43:17.590  INFO 22484 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : info
+2023-05-13 14:43:17.590 DEBUG 22484 --- [http-nio-800-exec-5] c.example.demo.controller.LogController  : debug
+2023-05-13 14:43:18.814 ERROR 22484 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : error
+2023-05-13 14:43:18.815  WARN 22484 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : warn
+2023-05-13 14:43:18.815  INFO 22484 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : info
+2023-05-13 14:43:18.816 DEBUG 22484 --- [http-nio-800-exec-6] c.example.demo.controller.LogController  : debug
+2023-05-13 14:43:19.897 ERROR 22484 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : error
+2023-05-13 14:43:19.898  WARN 22484 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : warn
+2023-05-13 14:43:19.898  INFO 22484 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : info
+2023-05-13 14:43:19.898 DEBUG 22484 --- [http-nio-800-exec-7] c.example.demo.controller.LogController  : debug
+2023-05-13 15:00:06.486  INFO 14452 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 14452 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:00:06.488  INFO 14452 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:00:06.558  INFO 14452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:00:06.559  INFO 14452 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:00:07.485  WARN 14452 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:00:08.066  INFO 14452 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:00:08.077  INFO 14452 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:00:08.077  INFO 14452 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:00:08.217  INFO 14452 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:00:08.217  INFO 14452 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1657 ms
+2023-05-13 15:00:08.290  WARN 14452 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'logController': Unsatisfied dependency expressed through field 'ipCountServer'; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'ipCountServer': Unsatisfied dependency expressed through field 'ipProperties'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'properties.IpProperties' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2023-05-13 15:00:08.294  INFO 14452 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-05-13 15:00:08.331  INFO 14452 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2023-05-13 15:00:08.350 ERROR 14452 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field ipProperties in ip.test.ip_spring_boot_starter.service.IpCountServer required a bean of type 'properties.IpProperties' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'properties.IpProperties' in your configuration.
+
+2023-05-13 15:13:40.268  INFO 18224 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 18224 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:13:40.269  INFO 18224 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:13:40.320  INFO 18224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:13:40.321  INFO 18224 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:13:41.210  WARN 18224 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:13:41.782  INFO 18224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:13:41.790  INFO 18224 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:13:41.791  INFO 18224 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:13:41.897  INFO 18224 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:13:41.898  INFO 18224 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1577 ms
+2023-05-13 15:13:42.412  INFO 18224 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:13:42.670  INFO 18224 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:13:42.718  INFO 18224 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:13:42.740  INFO 18224 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.938 seconds (JVM running for 3.94)
+2023-05-13 15:14:41.304  INFO 22304 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 22304 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:14:41.306  INFO 22304 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:14:41.359  INFO 22304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:14:41.359  INFO 22304 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:14:42.039  WARN 22304 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:14:42.527  INFO 22304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:14:42.536  INFO 22304 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:14:42.536  INFO 22304 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:14:42.635  INFO 22304 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:14:42.636  INFO 22304 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1276 ms
+2023-05-13 15:14:43.123  INFO 22304 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:14:43.390  INFO 22304 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:14:43.431  INFO 22304 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:14:43.449  INFO 22304 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.626 seconds (JVM running for 3.614)
+2023-05-13 15:50:03.629  INFO 23824 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 23824 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:50:03.632  INFO 23824 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:50:03.681  INFO 23824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:50:03.681  INFO 23824 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:50:04.278  WARN 23824 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:50:04.635  INFO 23824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:50:04.654  INFO 23824 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:50:04.654  INFO 23824 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:50:04.738  INFO 23824 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:50:04.740  INFO 23824 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1056 ms
+2023-05-13 15:50:05.085  INFO 23824 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:50:05.245  INFO 23824 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:50:05.277  INFO 23824 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:50:05.285  INFO 23824 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.079 seconds (JVM running for 2.838)
+2023-05-13 15:50:22.656  INFO 16468 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 16468 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:50:22.656  INFO 16468 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:50:22.699  INFO 16468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:50:22.699  INFO 16468 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:50:23.253  WARN 16468 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:50:23.647  INFO 16468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:50:23.662  INFO 16468 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:50:23.662  INFO 16468 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:50:23.737  INFO 16468 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:50:23.737  INFO 16468 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1038 ms
+2023-05-13 15:50:24.087  INFO 16468 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2023-05-13 15:50:24.257  INFO 16468 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-05-13 15:50:24.291  INFO 16468 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 800 (http) with context path ''
+2023-05-13 15:50:24.305  INFO 16468 --- [restartedMain] com.example.demo.DemoApplication         : Started DemoApplication in 2.024 seconds (JVM running for 2.935)
+2023-05-13 15:51:37.831  INFO 4572 --- [restartedMain] com.example.demo.DemoApplication         : Starting DemoApplication using Java 18 on DESKTOP-OH6STF2 with PID 4572 (D:\daima\demo\demo\target\classes started by Lenovo in D:\daima\demo\leetcode)
+2023-05-13 15:51:37.839  INFO 4572 --- [restartedMain] com.example.demo.DemoApplication         : The following 1 profile is active: "dev"
+2023-05-13 15:51:37.923  INFO 4572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-05-13 15:51:37.923  INFO 4572 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-05-13 15:51:38.656  WARN 4572 --- [restartedMain] o.m.s.mapper.ClassPathMapperScanner      : No MyBatis mapper was found in '[com.example.demo]' package. Please check your configuration.
+2023-05-13 15:51:39.026  INFO 4572 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 800 (http)
+2023-05-13 15:51:39.035  INFO 4572 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-05-13 15:51:39.035  INFO 4572 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.68]
+2023-05-13 15:51:39.122  INFO 4572 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-05-13 15:51:39.122  INFO 4572 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1199 ms
+2023-05-13 15:51:39.500  INFO 4572 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
